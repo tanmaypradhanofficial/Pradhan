@@ -1,0 +1,178 @@
+/* Reset default margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style banner */
+.banner img {
+    width: 100%;
+}
+
+/* Style courses */
+.courses {
+    padding: 2rem;
+}
+
+.course {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Style about section */
+.about {
+    background-color: rgb(1, 1, 37);
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Style footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Improve button styling */
+button {
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+/* Improved color scheme */
+:root {
+    --primary-color: #0074D9;
+    --secondary-color: #FF4136;
+}
+
+/* Update header styling */
+header {
+    background-color: rgb(0,0,40);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Update footer styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgb(19, 19, 39);
+    color: #fff;
+}
+
+/* Enhance button styling */
+button {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF725C;
+}
+.con-h{
+    position: relative;
+    margin-left: 600px;
+}
+    
+.con-a{
+    position: relative;
+    margin-left: 500px;
+}
+.con-p{
+    position: relative;
+    margin-left: 300px;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 20px;
+}
+.con{
+    margin-left: -50px;
+}
+.con-t{
+     position: relative;
+     left: 200px;
+     top: -40px;
+     margin-left: 10px;
+}
+/* This is my Body Style */
+body{
+    background: rgb(0,0,33);
+    color: white;
+}
+/* Selection Style    */
+p::selection{
+    background-color: black;
+    color: #e40d02;
+}
+h1::selection{
+    background-color: black;
+    color: #e40d02;
+}
+h2::selection{
+    background-color: black;
+    color: #e40d02;
+}
+nav::selection{
+    background-color: black;
+    color: #e40d02;
+}
+h3::selection{
+    background-color: black;
+    color: #e40d02;
+}
+img::selection{
+    background-color: black;
+    color: #e40d02;
+}
+a:hover{
+    margin-left: 3px;
+    margin-right: 2px;
+    border: 2px solid white;
+    border-radius: 5PX;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-heading{
+    font-size: 6rem;
+}
+.banner-img{
+    height: 200px;
+}
